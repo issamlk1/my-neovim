@@ -34,3 +34,11 @@ map('i', '<C-l>', function ()
 end, { desc = 'Copilot Accept', noremap = true, silent = true })
 -- rustaceanvim
 map("n", "<Leader>dt", "<cmd>lua vim.cmd('RustLsp testables')<CR>", { desc = "Debugger testables" })
+-- scroll to center
+map("n", "<C-d>", "<C-f>zz", { desc = "Page Down and Center" })
+map("n", "<C-u>", "<C-b>zz", { desc = "Page Up and Center" })
+
+
+
+
+
